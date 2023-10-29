@@ -3,10 +3,10 @@ import { lusitana } from '@/app/ui/fonts';
 import Search from '../search';
 import { CustomersTable, FormattedCustomersTable } from '@/app/lib/definitions';
 
-export default async function CustomersTable({
+export default async function CustomersTableUi({
   customers,
 }: {
-  customers: FormattedCustomersTable[];
+  customers: CustomersTable[];
 }) {
   return (
     <div className="w-full">
